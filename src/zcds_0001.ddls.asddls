@@ -18,5 +18,6 @@ association to zyrditem000 as _item on $projection.Uuid = _item.uuid
  zyrdorder000.local_last_changed_by as LocalLastChangedBy,
  zyrdorder000.local_last_changed_at as LocalLastChangedAt,
  zyrdorder000.last_changed_at as LastChangedAt
+ --save
     
 }

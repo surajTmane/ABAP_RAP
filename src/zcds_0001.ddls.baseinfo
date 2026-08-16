@@ -3,6 +3,7 @@
 {
 "FROM":
 [
+"ZYRDITEM000",
 "ZYRDORDER000"
 ],
 "ASSOCIATED":

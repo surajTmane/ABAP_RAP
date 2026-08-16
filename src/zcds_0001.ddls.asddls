@@ -17,7 +17,16 @@ association to zyrditem000 as _item on $projection.Uuid = _item.uuid
  zyrdorder000.local_created_at as LocalCreatedAt,
  zyrdorder000.local_last_changed_by as LocalLastChangedBy,
  zyrdorder000.local_last_changed_at as LocalLastChangedAt,
- zyrdorder000.last_changed_at as LastChangedAt
+ zyrdorder000.last_changed_at as LastChangedAt,
+--_item.uuid as Uuid,
+_item.parent_uuid as ParentUuid,
+_item.item_id as ItemId,
+_item.product_id as ProductId,
+_item.uom as Uom,
+--_item.req_quantity as ReqQuantity,
+--_item.currency_code as CurrencyCode,
+@Semantics.amount.currencyCode: 'CurrencyCode'
+_item.amount as Amount
+--_item.status as Status
  --save
-    
 }

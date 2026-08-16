@@ -11,4 +11,5 @@ ENDCLASS.
 
 
 CLASS z00st0001_class IMPLEMENTATION.
+//from git hub
 ENDCLASS.
